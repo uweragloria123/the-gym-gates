@@ -397,6 +397,9 @@ button, input:where([type='button'], [type='reset'], [type='submit']), ::file-se
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
+  .mr-5 {
+    margin-right: calc(var(--spacing) * 5);
+  }
   .mr-6 {
     margin-right: calc(var(--spacing) * 6);
   }
@@ -408,6 +411,9 @@ button, input:where([type='button'], [type='reset'], [type='submit']), ::file-se
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .-ml-6 {
+    margin-left: calc(var(--spacing) * -6);
   }
   .ml-1 {
     margin-left: calc(var(--spacing) * 1);
@@ -607,8 +613,14 @@ button, input:where([type='button'], [type='reset'], [type='submit']), ::file-se
   .flex-col {
     flex-direction: column;
   }
+  .place-items-center {
+    place-items: center;
+  }
   .items-center {
     align-items: center;
+  }
+  .items-start {
+    align-items: flex-start;
   }
   .justify-between {
     justify-content: space-between;
